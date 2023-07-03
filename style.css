@@ -1,0 +1,62 @@
+* {
+    font-family: 'PT Serif', serif;
+}
+
+h1, h2, h3, p {
+    color: rgb(56, 56, 56);
+}
+
+body {
+    margin: 40px auto;
+    max-width: 900px;
+    background-color: #F5F5F5;
+    line-height: 2.0;
+    font-size: 18px
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+.logo {
+    height:130px;
+    float:left;
+}
+
+.mob {
+    margin-left: 130px;
+}
+
+.joy {
+    height:190px;
+    float:right;
+}
+
+.growth {
+    height:190px;
+    float:left;
+}
+
+.food {
+    height:190px;
+    float: left;
+    margin-right:10px;
+}
+
+.thumbs_up {
+    height:100px;
+    float: right;
+}
+
+::-webkit-scrollbar {
+    width:10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background:rgb(56, 56, 56);
+    border-radius:6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
